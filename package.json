@@ -1,6 +1,6 @@
 {
   "private": true,
-  "description": "An example project for NextAuth.js with Next.js",
+  "description": "An example project for Hono.js with NextOuth",
   "repository": "https://github.com/nextauthjs/next-auth-example.git",
   "bugs": {
     "url": "https://github.com/nextauthjs/next-auth/issues"
@@ -13,13 +13,7 @@
     "dev:wrangler": "wrangler pages dev dist --port 5000",
     "update": "pnpm up --latest"
   },
-  "author": "Iain Collins <me@iaincollins.com>",
-  "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Nico Domino <yo@ndo.dev>",
-    "Lluis Agusti <hi@llu.lu>",
-    "Thang Huu Vu <hi@thvu.dev>"
-  ],
+  "author": "LeonV <leonardov0529@gmail.com>",
   "dependencies": {
     "@auth/core": "^0.30.0",
     "@hono/auth-js": "^1.0.7",
